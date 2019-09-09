@@ -40,3 +40,24 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+let headerImg = document.getElementById("cta-img");
+headerImg.setAttribute("src", "img/header-img.png")
+
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute("src", "img/mid-page-accent.jpg")
+
+// Nav
+
+let services = document.getElementsByTagName("a")[0];
+services.innerHTML = "Services";
+let product = document.getElementsByTagName("a")[1];
+product.innerHTML = "Product";
+let vision = document.getElementsByTagName("a")[2];
+vision.innerHTML = "Vision";
+let features = document.getElementsByTagName("a")[3];
+features.innerHTML = "Features";
+let about = document.getElementsByTagName("a")[4];
+about.innerHTML = "About"
+let contact = document.getElementsByTagName("a")[5];
+contact.innerHTML = "Contact";
